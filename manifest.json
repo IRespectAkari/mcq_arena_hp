@@ -1,0 +1,20 @@
+{
+  "name": "Add Arena HP Number for MCQ",
+  "description": "MCQ の闘技場でHPバーの下に具体的な数値を追加します。",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://milkchoko.sakura.ne.jp/quest/*"
+      ],
+      "js": [
+        "script.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ]
+}
