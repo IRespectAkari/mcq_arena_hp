@@ -15,7 +15,7 @@ function createAndSetH(elm, txt) {
 }
 const getHero = (table, isChampion)=>{
   const heroS = `td:nth-child(${isChampion ? 1 : 3}) > img[width="48px"]`;
-  return table.querySelector(heroS).alt.replace(/[【】]/, ``);
+  return table.querySelector(heroS).alt.replaceAll(/[【】]/g, ``);
 };
 ////////////////////////////////////////////////////////////////////
 function addArenaHP(e) {
