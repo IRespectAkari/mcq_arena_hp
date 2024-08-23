@@ -1,7 +1,7 @@
 {
   "name": "Add Arena HP Number for MCQ",
   "description": "MCQ の闘技場でHPバーの下に具体的な数値を追加します。",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 3,
   "content_scripts": [
     {
